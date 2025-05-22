@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Android",
+        "type": "dotnet",
+        "request": "launch",
+        "projectPath": "${workspaceFolder}/CouchbaseSync/AppSync.csproj",
+        "launchSettingsFilePath": "${workspaceFolder}/CouchbaseSync/Properties/launchSettings.json",
+        "targetFramework": "net8.0-android",
+        "deploymentTarget": "Pixel_6_API_34"
+      },
+      {
+        "name": "Debug iOS Simulator",
+        "type": "dotnet",
+        "request": "launch",
+        "projectPath": "${workspaceFolder}/CouchbaseSync/AppSync.csproj",
+        "launchSettingsFilePath": "${workspaceFolder}/CouchbaseSync/Properties/launchSettings.json",
+        "targetFramework": "net8.0-ios",
+        "runtimeIdentifier": "iossimulator-arm64",  // force targeting simulator
+        "deploymentTarget": "iPhone 15 Pro"
+      }
+    ]
+  }
+  
